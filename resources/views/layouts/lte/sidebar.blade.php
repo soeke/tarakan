@@ -23,15 +23,33 @@
 					<a href="#" class="nav-link">
 					<i class="nav-icon fas fa-table"></i>
 					<p>
-						UAS
+						UTM
 						<i class="fas fa-angle-left right"></i>
 					</p>
 					</a>
 					<ul class="nav nav-treeview">
 					<li class="nav-item">
-						<a href="#" class="nav-link">
+						<a href="{{ route ('index_backend_unm') }}" class="nav-link">
 						<i class="far fa-circle nav-icon"></i>
-						<p>Numpang UTM</p>
+						<p>Numpang Masuk UTM</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ route ('show_all_backend_unm') }}" class="nav-link">
+						<i class="far fa-circle nav-icon"></i>
+						<p>Show All</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ route ('absen_backend_unm') }}" class="nav-link">
+						<i class="far fa-circle nav-icon"></i>
+						<p>Absen</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ route ('rekap_backend_unm') }}" class="nav-link">
+						<i class="far fa-circle nav-icon"></i>
+						<p>Rekap</p>
 						</a>
 					</li>
 					</ul>
